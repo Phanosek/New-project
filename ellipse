@@ -1,9 +1,7 @@
-var size = toy.measure();
-var center;
+function setup() {
 
-p.setup = function() {
-  p.createCanvas(size.w, size.h);
-  p.angleMode(p.DEGREES);
-  
-  p.ellipse(size.w / 2, size.h / 2, 30);
-};
+}
+
+function draw() {
+  ellipse(50, 50, 80, 80);
+}
